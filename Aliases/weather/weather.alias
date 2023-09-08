@@ -394,7 +394,7 @@ def main(input_list: list[str]) -> list[str]:
         results = get_weather(input_list[0])
 
         # If there was not an error
-        if results[0] != "Error"
+        if results[0] != "Error":
 
             lower_input = input_list[0].lower()
 
